@@ -21,6 +21,7 @@ describe("Creating a player", function () {
 
       let player = new Player(...TEST_PLAYER);
 
+      
       expect(player).toBeInstanceOf(Player);
     });
 
